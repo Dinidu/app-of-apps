@@ -1,0 +1,9 @@
+spec:
+  destination:
+    server: https://kubernetes.default.svc
+  source:
+    chart: podinfo
+    targetRevision: 6.3.5
+    repoURL: https://stefanprodan.github.io/podinfo
+    helm:
+      releaseName: podinfo
